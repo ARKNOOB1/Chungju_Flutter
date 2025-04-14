@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/ToDoPage.dart';
 import 'package:untitled/seting_page.dart';
 
 import 'drawer.dart';
@@ -21,7 +22,8 @@ class MyApp extends StatelessWidget {
       initialRoute: "/",
       routes: {
         "/" : (context) => const MyHomePage(),
-        "/setting": (context) => const SettingPage()
+        "/setting": (context) => const SettingPage(),
+        "/to-do": (context) =>  const TodoPage(),
       },
     );
   }

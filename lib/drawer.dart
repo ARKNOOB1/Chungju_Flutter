@@ -40,6 +40,15 @@ class MyDrawer extends StatelessWidget {
               );
             },
           ),
+          ListTile(
+            leading: const Icon(Icons.list),
+            title: const Text("To Do 앱"),
+            onTap: () {
+              Navigator.pushNamed(
+                  context, "/to-do"
+              );
+            },
+          ),
         ],
       ),
     );
